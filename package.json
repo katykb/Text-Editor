@@ -1,25 +1,26 @@
 {
-    "name": "JATE",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "start:dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run server\" ",
-      "start": "concurrently \"npm run client\" \"npm run server\"",
-      "server": "cd server && npm run server",
-      "build": "cd client && npm run build",
-      "install": "concurrently \"cd client && npm install\" \"cd server && npm install",
-      "client": "cd client && npm run dev"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.17.1",
-      "if-env": "^1.0.4"
-    },
-    "devDependencies": {
-      "concurrently": "^5.2.0",
-      "nodemon": "^2.0.4"
-    }
+  "name": "JATE",
+  "version": "1.0.0",
+  "description": "Text Editor",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run server\" ",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "server": "cd server && npm run server",
+    "build": "cd client && npm run build",
+    "install": "concurrently \"cd client && npm install\" \"cd server && npm install",
+    "client": "cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+    
   }
+}
