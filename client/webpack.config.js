@@ -20,19 +20,21 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Todo App",
+        title: "J.A.T.E",
       }),
       new WebpackPwaManifest({
-        name: "TODOs",
-        short_name: "TODOs",
-        description: "Keep track of important tasks!",
-        background_color: "#7eb4e2",
-        theme_color: "#7eb4e2",
+        fingerprints: false,
+        inject: true,
+        name: "Just Another Text Editor",
+        short_name: "J.A.T.E",
+        description: "Takes notes with JavaScript syntax highlighting!",
+        background_color: "#225ca3",
+        theme_color: "#225ca3",
         start_url: "./",
         publicPath: "./",
         icons: [
           {
-            src: path.resolve("assets/images/logo.png"),
+            src: path.resolve("./src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
           },
