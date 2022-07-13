@@ -1,12 +1,12 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "Text Editor",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "concurrently  \"cd server && npm run server\" \"cd client && npm run dev\" ",
+    "start:dev": "concurrently  \"cd server && npm run server\" \"cd client && npm run build\" ",
     "start": "npm run build && cd server && node server.js",
-    "server": "cd server nodemon se3rver.js --ignore client",
+    "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd client && npm installl",
     "client": "cd client && npm start"
@@ -16,11 +16,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-
   }
 }
