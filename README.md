@@ -10,6 +10,13 @@
 
 ![image](https://user-images.githubusercontent.com/97707793/179368345-4935c4bf-d9ed-48ed-803e-381b12db766c.png)
 
+![image](https://user-images.githubusercontent.com/97707793/179368776-9c07c168-165d-46ba-a6ac-45fcca123691.png)
+
+![image](https://user-images.githubusercontent.com/97707793/179368700-c8a60c50-dbba-46ee-8378-7fe57679711b.png)
+
+![image](https://user-images.githubusercontent.com/97707793/179368833-750ee7ee-020d-41f3-ab9a-f2e896b99832.png)
+
+
 ### Description
       An application that can be installed with a button click. Used to edit text in a single page application
       
