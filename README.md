@@ -8,12 +8,16 @@
 * [Contributors](#contributors)
 * [Test](#test)
 
+![image](https://user-images.githubusercontent.com/97707793/179368345-4935c4bf-d9ed-48ed-803e-381b12db766c.png)
+
 ### Description
       An application that can be installed with a button click. Used to edit text in a single page application
+      
 ### Usage
-      The user will use this appliccation to write and edit code or any text. The data will be saved using an indexDB so the information the user has added will be saved even if the screnn refreshes.
+      The user will use this appliccation to write and edit code or any text. 
+      The data will be saved using an indexDB so the information the user has added will be saved even if the screnn refreshes.
 ### Instructions
-      Visit the application site and click the "Install" button.
+      Visit the application site https://katybrown-jate-app.herokuapp.com/ and click the "Install" button.
 ### License
       MIT
 ### Contributors
