@@ -18,11 +18,17 @@
 
 
 ### Description
-      An application that can be installed with a button click. Used to edit text in a single page application
+      An application that can be installed with a button click. Used to edit text in a single page application and will run
+      in the browser or offline.
+      
+      Technology used: idb, IndexedDB API, Heroku, JavsScript, webpack, express
+      DevDependencies: concurrently, nodemon, 
       
 ### Usage
       The user will use this appliccation to write and edit code or any text. 
       The data will be saved using an indexDB so the information the user has added will be saved even if the screnn refreshes.
+      Since JATE is a PWA, the user can use the app on or offline.
+      
 ### Instructions
       Visit the application site https://katybrown-jate-app.herokuapp.com/ and click the "Install" button.
 ### License
